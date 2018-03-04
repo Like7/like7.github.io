@@ -1,0 +1,53 @@
+<head>
+	<title>My site</title>
+	<link rel="icon" href="#Letter A (b).png">
+	<link rel="stylesheet" href=".\alec.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>					
+<script>
+function color() {
+    alert("Hello! I am an alert box!");
+}
+</script>
+<script> 
+	function color(){	
+		$(document).ready(function(){
+			$("span").click(function(){
+				$("body").css("background-color", "blue");
+				});
+			});
+		};
+</script>
+<body>
+
+	<header>
+		<div class="head">
+			<li><a href="home">Home</a></li>
+				<div class="drop">
+					<li id="li"><a href="projects">Projects</a></li>
+						<div class="dropcont">
+						<a href=''>Project 1</a>
+						<a href=''>Project 2</a>
+						<a href=''>Project 3</a>
+					</div>
+				</div>
+			<li><a href="about">About</a></li>
+			<li><a href="E:\OldSite\new  fasf.html">Playground</a></li>
+		</div>
+	</header>
+	
+	<footer>
+		<div>
+			<span>Select Theme</span>
+			<select>
+				<option>Themes</option>
+				<option>Default</option>
+				<option>Dark</option>
+				<option onclick="color()" class="Col"><span>Colourful</span></option>
+				<option>Inverted</option>
+				<option>Custom</option>
+			</select>
+		</div>
+	</footer>
+</body>

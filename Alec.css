@@ -1,0 +1,46 @@
+.head {
+	list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+	background-color:#9B9999; 
+	border-top: 7px solid #666565;
+}
+li { 
+	float:left;
+}
+li a {
+	display:block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family:verdana;
+	font-size:23px;
+}
+li a:hover {
+	background-color:#666565;
+}
+.drop {
+	position:relative;
+	display:inline-block;
+}
+.dropcont {
+	display: none;
+    position: absolute;
+    background-color: #666565;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	min-width:160px;
+	
+}
+.drop:hover .dropcont {
+	display:inline-block;
+}
+dropcont a {
+	font-family:verdana;
+	font-size:23px;
+	text-decoration:none;
+}
+body {
+	background-color:#728ed4
+}
