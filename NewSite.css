@@ -121,7 +121,7 @@ body {
 	height:120px;
 	background-color:#495777;	
 }
-footer {
+.footer {
 	box-sizing:border-box;
 	position:absolute;
 	height:50px;
