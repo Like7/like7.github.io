@@ -121,3 +121,10 @@ body {
 	height:120px;
 	background-color:#495777;	
 }
+footer {
+	position:absolute;
+	height:50px;
+	width:100%;
+	background-color:grey;
+	padding:10px 15px 5px 15px;
+}
