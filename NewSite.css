@@ -15,7 +15,7 @@ ul {
 	overflow:hidden;
 	background-color:#4d575b;
 	border-top:7px solid #6f7e84;
-	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow:0 4px 7px 0px rgba(0,0,0,0.2);
 	z-index:1;
 	position:relative;
 }
@@ -94,8 +94,8 @@ body {
 }
 .container {
 	background-color:#495568;
-	margin-left:260px;
-	margin-right:260px;
+	margin-left:400px;
+	margin-right:400px;
 	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
 	height:900px;
 	border-left:9px solid #748299;
@@ -135,6 +135,6 @@ p {
 	padding:10px 15px 5px 15px;
 	margin:0;
 	overflow:hidden;
-	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);	
+	box-shadow:-3px -2px 7px 0px rgba(0,0,0,0.2);	
 	border-bottom:7px solid #6f7e84;
 }
