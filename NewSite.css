@@ -119,8 +119,11 @@ p {
 	right:20px;
 	position:fixed;
 	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index:4;
 }
+.them {	
+	z-index:3
+}
+
 
 .foot {
 	box-sizing:border-box;
