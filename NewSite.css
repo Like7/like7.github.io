@@ -122,7 +122,11 @@ p {
 	border-top-left-radius:120px;
 	width:240px;
 	height:120px;
-	background-color:#495777;	
+	background-color:#495777;
+	bottom:10px;
+	right:20px;
+	position:fixed;
+	z-index:4;
 }
 
 .foot {
