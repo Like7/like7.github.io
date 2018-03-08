@@ -75,14 +75,6 @@ li, a {
 	position:absolute;
 }
 
-.them {
-	bottom:10px;
-	right:20px;
-	position:fixed;
-}
-
-
-
 body {
 	background-color:#70787C;
 	margin:0;
@@ -126,6 +118,7 @@ p {
 	bottom:10px;
 	right:20px;
 	position:fixed;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index:4;
 }
 
