@@ -110,6 +110,7 @@ p {
 	font-family:verdana;
 	font-size:20px;
 	color:##7d93b7;
+}
 
 .h1 {
 	font-family:Trebuchet MS;
@@ -126,6 +127,7 @@ p {
 	height:120px;
 	background-color:#495777;	
 }
+
 .foot {
 	box-sizing:border-box;
 	position:absolute;
