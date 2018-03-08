@@ -115,7 +115,7 @@ p {
 	width:240px;
 	height:120px;
 	background-color:#495777;
-	bottom:10px;
+	bottom:0px;
 	right:20px;
 	position:fixed;
 	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
