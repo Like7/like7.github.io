@@ -41,7 +41,7 @@ li.drop {
 	display:none;
 	position:absolute;
 	background-color:#6f7e84;
-	width:inherit;
+	width:124px;
 	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index:1;
 }
@@ -118,6 +118,8 @@ p {
     position: fixed;
     box-shadow: 0px 8px 16px 1px rgba(0,0,0,0.2);
     z-index: 2;
+    transform-origin:50% 50%;
+    animation:1s them linear; 	
 }
 
 .foot {
@@ -130,4 +132,8 @@ p {
 	margin:0;
 	box-shadow:-3px -2px 7px 0px rgba(0,0,0,0.2);
 	border-bottom:7px solid #6f7e84;
+}
+@keyframes them {
+	0%{width:default}
+	100%{width:100px}
 }
