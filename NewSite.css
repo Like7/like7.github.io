@@ -134,10 +134,9 @@ p {
 }
 
 .thm2:hover {
-	animation: 1s them linear;
+	width: 100px;
+	transtition: 1s;
+	transition-timing-function: ease;
 }
 
-@keyframes them {
-	0%{width:default}
-	100%{width:100px}
-}
+
